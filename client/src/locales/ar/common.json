@@ -1,0 +1,176 @@
+{
+  "brand": "فعاليات الرياض",
+  "common": {
+    "loading": "جاري التحميل..."
+  },
+  "errors": {
+    "failedToLoadVendors": "تعذر تحميل المزودين.",
+    "failedToLoadVendor": "تعذر تحميل ملف المزود."
+  },
+  "nav": {
+    "home": "الرئيسية",
+    "search": "البحث",
+    "vendorProfile": "ملف المزود",
+    "calculators": "الحاسبات",
+    "dashboards": "لوحات التحكم"
+  },
+  "eventTypes": {
+    "allEventTypes": "كل أنواع الفعاليات",
+    "wedding": "زفاف",
+    "corporate": "فعاليات الشركات",
+    "mini": "فعالية صغيرة",
+    "mini_event": "فعالية صغيرة",
+    "seasonal": "موقع موسمي",
+    "seasonal_venue": "موقع موسمي"
+  },
+  "searchFilters": {
+    "searchHint": "تصفح مزودي الرياض المعتمدين وقم بالتصفية حسب نوع الفعالية.",
+    "eventType": "نوع الفعالية",
+    "noResults": "لا يوجد مزودون لهذا الفلتر."
+  },
+  "vendors": {
+    "untitled": "مزود بدون اسم",
+    "verified": "معتمد",
+    "bookNow": "احجز الآن",
+    "noDescription": "لا يوجد وصف متاح حاليا.",
+    "noEventTypes": "لا توجد أنواع فعاليات مضافة"
+  },
+  "vendorProfile": {
+    "selectVendorHint": "افتح مزودا من صفحة البحث لعرض الملف الكامل.",
+    "tabs": {
+      "gallery": "معرض الصور عالية الدقة",
+      "map3d": "خريطة ثلاثية الأبعاد",
+      "reviews": "آراء العملاء"
+    },
+    "map": "خريطة",
+    "galleryItem": "صورة من المعرض",
+    "emptyGallery": "لا توجد صور في المعرض.",
+    "emptyMaps": "لا توجد خرائط ثلاثية الأبعاد.",
+    "emptyReviews": "لا توجد آراء عملاء حتى الآن.",
+    "reviewTitleFallback": "رأي عميل",
+    "reviewBodyFallback": "نص المراجعة غير متاح."
+  },
+  "calculators": {
+    "pageIntro": "استخدم هذه الحاسبات التفاعلية لتخطيط ميزانيتك بالريال السعودي.",
+    "wedding": {
+      "title": "حاسبة تكلفة الزفاف",
+      "description": "قدّر إجمالي الميزانية بناء على عدد الضيوف ونوع المكان والخدمات.",
+      "guestCount": "عدد الضيوف",
+      "venueType": "نوع المكان",
+      "services": "الخدمات",
+      "estimatedBudget": "الميزانية التقديرية",
+      "venues": {
+        "basic": "مكان أساسي",
+        "premium": "مكان مميز",
+        "luxury": "مكان فاخر"
+      },
+      "serviceItems": {
+        "catering": "الضيافة",
+        "photography": "التصوير والفيديو",
+        "decor": "الديكور والزهور",
+        "entertainment": "الترفيه"
+      }
+    },
+    "finance": {
+      "title": "حاسبة التمويل / الشراء الآن والدفع لاحقا",
+      "description": "قسّم الإجمالي إلى دفعات شهرية بدون فوائد لمدة 12 شهرا.",
+      "totalCost": "التكلفة الإجمالية (ر.س)",
+      "monthlyInstallment": "القسط الشهري التقديري",
+      "interestFree": "بدون فوائد",
+      "months": "شهرا",
+      "totalPayable": "إجمالي المبلغ المستحق"
+    }
+  },
+  "dashboard": {
+    "title": "لوحة ERP للمزود",
+    "subtitle": "إدارة الحجوزات والمالية والمخزون من مكان واحد.",
+    "sidebar": {
+      "title": "مساحة العمل",
+      "overview": "نظرة عامة",
+      "bookings": "الحجوزات",
+      "finance": "المالية",
+      "inventory": "المخزون",
+      "settings": "الإعدادات"
+    },
+    "charity": {
+      "title": "توزيع الطعام الخيري",
+      "subtitle": "إرسال طلب استلام للطعام الفائض من الفعاليات الأخيرة.",
+      "button": "تشغيل طلب استلام الطعام الخيري",
+      "loading": "جاري إرسال الطلب...",
+      "success": "تم إرسال طلب الاستلام بنجاح.",
+      "error": "تعذر إرسال طلب الاستلام. حاول مرة أخرى."
+    },
+    "calendar": {
+      "title": "تقويم الحجوزات",
+      "subtitle": "عرض مرئي لحجوزات هذا الشهر.",
+      "days": {
+        "sun": "الأحد",
+        "mon": "الاثنين",
+        "tue": "الثلاثاء",
+        "wed": "الأربعاء",
+        "thu": "الخميس",
+        "fri": "الجمعة",
+        "sat": "السبت"
+      },
+      "events": {
+        "wedding": "زفاف",
+        "corporate": "شركات",
+        "mini": "فعالية صغيرة",
+        "seasonal": "موقع موسمي"
+      }
+    },
+    "finance": {
+      "title": "تحليلات مالية",
+      "subtitle": "تتبع الأداء والمدفوعات القادمة.",
+      "mockChart": "اتجاه الإيرادات الأسبوعية (تجريبي)",
+      "stats": {
+        "monthlyRevenue": "إيرادات الشهر",
+        "pendingPayouts": "مدفوعات قيد الانتظار",
+        "confirmedBookings": "حجوزات مؤكدة"
+      }
+    },
+    "inventory": {
+      "title": "إدارة المخزون",
+      "subtitle": "تحديث الكميات المتاحة للفعاليات القادمة.",
+      "quantity": "الكمية المتاحة",
+      "items": {
+        "chairs": "الكراسي",
+        "tables": "الطاولات",
+        "lighting": "وحدات الإضاءة"
+      }
+    }
+  },
+  "bookingFlow": {
+    "title": "تدفق الحجز",
+    "subtitle": "اختر تاريخ الفعالية والباقتك المفضلة.",
+    "dateLabel": "تاريخ الفعالية",
+    "dateBlocked": "تم حظر هذا التاريخ في الوقت الفعلي ولم يعد متاحا.",
+    "packageLabel": "الباقات المجمعة",
+    "estimatedTotal": "الإجمالي التقديري",
+    "bookNow": "تأكيد طلب الحجز",
+    "submitting": "جاري إرسال الحجز...",
+    "success": "تم إنشاء الحجز بنجاح.",
+    "packages": {
+      "venueCatering": "المكان + الضيافة",
+      "venuePhotography": "المكان + التصوير",
+      "fullBundle": "الباقة الكاملة (مكان + ضيافة + تصوير)"
+    },
+    "errors": {
+      "selectDate": "يرجى اختيار تاريخ قبل الحجز.",
+      "dateUnavailable": "التاريخ المحدد غير متاح.",
+      "failed": "فشل طلب الحجز. حاول مرة أخرى.",
+      "authRequired": "يرجى تسجيل الدخول أولا. احفظ التوكن في localStorage بالمفتاح auth_token."
+    }
+  },
+  "language": {
+    "switch": "English"
+  },
+  "pages": {
+    "homeTitle": "الرئيسية",
+    "searchTitle": "البحث عن المزودين",
+    "vendorTitle": "ملف المزود",
+    "calculatorsTitle": "حاسبات تفاعلية",
+    "dashboardTitle": "لوحات التحكم",
+    "placeholder": "صفحة مؤقتة للمرحلة الخامسة."
+  }
+}

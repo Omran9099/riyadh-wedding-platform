@@ -1,0 +1,176 @@
+{
+  "brand": "Riyadh Events",
+  "common": {
+    "loading": "Loading..."
+  },
+  "errors": {
+    "failedToLoadVendors": "Failed to load vendors.",
+    "failedToLoadVendor": "Failed to load vendor profile."
+  },
+  "nav": {
+    "home": "Home",
+    "search": "Search",
+    "vendorProfile": "Vendor Profile",
+    "calculators": "Calculators",
+    "dashboards": "Dashboards"
+  },
+  "eventTypes": {
+    "allEventTypes": "All Event Types",
+    "wedding": "Wedding",
+    "corporate": "Corporate",
+    "mini": "Mini-event",
+    "mini_event": "Mini-event",
+    "seasonal": "Seasonal Venue",
+    "seasonal_venue": "Seasonal Venue"
+  },
+  "searchFilters": {
+    "searchHint": "Browse verified Riyadh vendors and filter by event type.",
+    "eventType": "Event Type",
+    "noResults": "No vendors found for this filter."
+  },
+  "vendors": {
+    "untitled": "Untitled Vendor",
+    "verified": "Verified",
+    "bookNow": "Book Now",
+    "noDescription": "No description available yet.",
+    "noEventTypes": "No event types listed"
+  },
+  "vendorProfile": {
+    "selectVendorHint": "Open a vendor from Search to view full profile.",
+    "tabs": {
+      "gallery": "High-Res Gallery",
+      "map3d": "3D Map",
+      "reviews": "Customer Reviews"
+    },
+    "map": "Map",
+    "galleryItem": "Gallery image",
+    "emptyGallery": "No gallery images available.",
+    "emptyMaps": "No 3D maps available.",
+    "emptyReviews": "No customer reviews yet.",
+    "reviewTitleFallback": "Customer review",
+    "reviewBodyFallback": "Review text unavailable."
+  },
+  "calculators": {
+    "pageIntro": "Use these interactive estimators to plan your budget in SAR.",
+    "wedding": {
+      "title": "Wedding Cost Estimator",
+      "description": "Estimate your total wedding budget based on guest count, venue style, and services.",
+      "guestCount": "Guest Count",
+      "venueType": "Venue Type",
+      "services": "Services",
+      "estimatedBudget": "Estimated Budget",
+      "venues": {
+        "basic": "Basic Venue",
+        "premium": "Premium Venue",
+        "luxury": "Luxury Venue"
+      },
+      "serviceItems": {
+        "catering": "Catering",
+        "photography": "Photography & Video",
+        "decor": "Decor & Florals",
+        "entertainment": "Entertainment"
+      }
+    },
+    "finance": {
+      "title": "Finance / BNPL Estimator",
+      "description": "Split your total into interest-free monthly installments over 12 months.",
+      "totalCost": "Total Cost (SAR)",
+      "monthlyInstallment": "Estimated Monthly Installment",
+      "interestFree": "Interest-free",
+      "months": "months",
+      "totalPayable": "Total Payable"
+    }
+  },
+  "dashboard": {
+    "title": "Vendor ERP Dashboard",
+    "subtitle": "Manage bookings, finances, and inventory from one place.",
+    "sidebar": {
+      "title": "Workspace",
+      "overview": "Overview",
+      "bookings": "Bookings",
+      "finance": "Finance",
+      "inventory": "Inventory",
+      "settings": "Settings"
+    },
+    "charity": {
+      "title": "Charity Food Distribution",
+      "subtitle": "Trigger a pickup request for surplus food from recent events.",
+      "button": "Trigger Charity Food Pickup",
+      "loading": "Sending request...",
+      "success": "Pickup request sent successfully.",
+      "error": "Could not send pickup request. Please try again."
+    },
+    "calendar": {
+      "title": "Booking Calendar",
+      "subtitle": "Visual overview of this month's reservations.",
+      "days": {
+        "sun": "Sun",
+        "mon": "Mon",
+        "tue": "Tue",
+        "wed": "Wed",
+        "thu": "Thu",
+        "fri": "Fri",
+        "sat": "Sat"
+      },
+      "events": {
+        "wedding": "Wedding",
+        "corporate": "Corporate",
+        "mini": "Mini Event",
+        "seasonal": "Seasonal Venue"
+      }
+    },
+    "finance": {
+      "title": "Financial Analytics",
+      "subtitle": "Track performance and upcoming payouts.",
+      "mockChart": "Weekly Revenue Trend (Mock)",
+      "stats": {
+        "monthlyRevenue": "Monthly Revenue",
+        "pendingPayouts": "Pending Payouts",
+        "confirmedBookings": "Confirmed Bookings"
+      }
+    },
+    "inventory": {
+      "title": "Inventory Manager",
+      "subtitle": "Update available stock for upcoming events.",
+      "quantity": "Available Quantity",
+      "items": {
+        "chairs": "Chairs",
+        "tables": "Tables",
+        "lighting": "Lighting Units"
+      }
+    }
+  },
+  "bookingFlow": {
+    "title": "Booking Flow",
+    "subtitle": "Choose your event date and preferred package.",
+    "dateLabel": "Event Date",
+    "dateBlocked": "This date has been blocked in real time and is no longer available.",
+    "packageLabel": "Package Bundles",
+    "estimatedTotal": "Estimated Total",
+    "bookNow": "Confirm Booking Request",
+    "submitting": "Submitting booking...",
+    "success": "Booking created successfully.",
+    "packages": {
+      "venueCatering": "Venue + Catering",
+      "venuePhotography": "Venue + Photography",
+      "fullBundle": "Full Bundle (Venue + Catering + Photography)"
+    },
+    "errors": {
+      "selectDate": "Please select a date before booking.",
+      "dateUnavailable": "Selected date is unavailable.",
+      "failed": "Booking request failed. Please try again.",
+      "authRequired": "Please login first. Save your token in localStorage key auth_token."
+    }
+  },
+  "language": {
+    "switch": "العربية"
+  },
+  "pages": {
+    "homeTitle": "Home",
+    "searchTitle": "Search Vendors",
+    "vendorTitle": "Vendor Profile",
+    "calculatorsTitle": "Interactive Calculators",
+    "dashboardTitle": "Dashboards",
+    "placeholder": "Placeholder page for Phase 5 routing."
+  }
+}
